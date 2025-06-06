@@ -19,7 +19,7 @@ Este projeto implementa um tradutor que converte expressões matemáticas do for
 ### Execução via linha de comando
 
 ```bash
-python tradutor.py arquivo_entrada.txt arquivo_saida.txt
+python tradutor.py ../testes/entrada.txt ../testes/saida.txt
 ```
 
 ### Execução interativa
@@ -33,12 +33,15 @@ O programa solicitará os nomes dos arquivos de entrada e saída.
 
 ```
 tradutor-expressoes-matematicas/
-├── README.md
-├── tradutor.py
-├── exemplos/
+├── cpp/
+│   ├── tradutor.cpp
+│   └── README.md (este arquivo)
+├── python/
+│   ├── tradutor.py
+│   └── README.md
+├── testes/
 │   ├── entrada.txt
 │   └── saida.txt
-└── requirements.txt
 ```
 
 ## 🔧 Exemplo de Uso

@@ -81,8 +81,8 @@ def main():
     print("=== TRADUTOR DE EXPRESSÕES MATEMÁTICAS ===")
     print("Converte expressões infixas para pós-fixas\n")
     
-    arquivo_entrada = "testes/entrada.txt"
-    arquivo_saida = "testes/saida.txt"
+    arquivo_entrada = "../testes/entrada.txt"
+    arquivo_saida = "../testes/saida.txt"
     
     if not os.path.exists(arquivo_entrada):
         print(f"Erro: Arquivo '{arquivo_entrada}' não encontrado!")
